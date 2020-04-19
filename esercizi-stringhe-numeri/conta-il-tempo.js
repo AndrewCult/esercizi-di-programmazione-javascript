@@ -12,3 +12,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var secondiTot = 12560;
+var ore = Math.trunc(secondiTot / 3600);
+var minuti = Math.trunc(secondiTot / 60) - ore * 60;
+var secondi = secondiTot - (minuti * 60) - (ore * 3600);
+console.log(ore + ' ore, ' + minuti + ' minuti e ' + secondi + ' secondi.');
