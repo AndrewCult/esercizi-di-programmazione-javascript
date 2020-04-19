@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var gattiTot = 44;
+var gattiFila = 6;
+var numFile = Math.ceil(gattiTot / gattiFila);
+var lostCats = (numFile * gattiFila) - gattiTot;
+console.log('numero di file = ' + numFile + ', gatti mancanti = ' + lostCats);
