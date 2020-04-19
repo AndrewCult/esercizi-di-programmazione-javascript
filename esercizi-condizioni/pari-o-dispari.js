@@ -16,9 +16,14 @@
   http://www.imparareaprogrammare.it
 */
 
-var num = 2;
+var num = undefined;
 if (num % 2 == 0) {
-    console.log(0);
+    console.log(num % 2);
 } else {
-    console.log(1);
+    if (num % 2 == 1) {
+        console.log(num % 2);
+    } else {
+        console.log('numero non assegnato');
+
+    }
 }
