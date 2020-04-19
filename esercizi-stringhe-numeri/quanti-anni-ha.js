@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var annoCorrente = 2018;
+var annoNascita = 1991;
+var limit = 100;
+var eta = annoCorrente - annoNascita;
+var anniMancanti = limit - eta;
+console.log('età = ' + eta + ', anni mancanti = ' + anniMancanti);
