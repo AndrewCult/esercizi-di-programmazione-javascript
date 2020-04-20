@@ -13,7 +13,10 @@
 */
 
 var numero = 245;
+/*trasformo la variabile numero in una variabile stringa, dopo aver verificato che la proprietà length 
+non funziona con i numeri*/
 num = String(numero);
+
 if (num.length == 1) {
     console.log(num.length + ' cifra');
 } else {
@@ -23,6 +26,8 @@ if (num.length == 1) {
         console.log('il numero inserito è superiore a 9999');
     }
 }
+
+//sì, ho deciso di provare con entrambi i metodi
 
 switch (num.length) {
     case 1:
