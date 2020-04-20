@@ -22,3 +22,74 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var giorno = 1;
+switch (giorno) {
+    case 1:
+        console.log('Lunedì');
+        break;
+    case 2:
+        console.log('Martedì');
+        break;
+    case 3:
+        console.log('Mercoledì');
+        break;
+    case 4:
+        console.log('Giovedì');
+        break;
+    case 5:
+        console.log('Venerdì');
+        break;
+    case 6:
+        console.log('Sabato');
+        break;
+    case 7:
+        console.log('Domenica');
+        break;
+    default:
+        console.log('Errore! Giorno della settimana non valido!');
+}
+
+console.log('');
+
+var mese = 4;
+switch (mese) {
+    case 1:
+        console.log('Gennaio');
+        break;
+    case 2:
+        console.log('Febbraio');
+        break;
+    case 3:
+        console.log('Marzo');
+        break;
+    case 4:
+        console.log('Aprile');
+        break;
+    case 5:
+        console.log('Maggio');
+        break;
+    case 6:
+        console.log('Giugno');
+        break;
+    case 7:
+        console.log('Luglio');
+        break;
+    case 8:
+        console.log('Agosto');
+        break;
+    case 9:
+        console.log('Settembre');
+        break;
+    case 10:
+        console.log('Ottobre');
+        break;
+    case 11:
+        console.log('Novembre');
+        break;
+    case 12:
+        console.log('Dicembre');
+        break;
+    default:
+        console.log('Errore! Mese non valido!');
+}
