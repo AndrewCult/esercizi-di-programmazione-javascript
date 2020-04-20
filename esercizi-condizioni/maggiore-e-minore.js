@@ -10,3 +10,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = 3;
+var b = -1;
+var c = 4;
+var d = -2;
+var max = a;
+var min = a;
+if (b > max) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (b < min) min = b;
+if (c < min) min = c;
+if (d < min) min = d;
+console.log('maggiore = ' + max + ', minore = ' + min);
