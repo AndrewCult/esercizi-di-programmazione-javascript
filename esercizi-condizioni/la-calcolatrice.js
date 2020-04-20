@@ -2,7 +2,7 @@
   La calcolatrice
   Scrivi un programma che dati:
     - Due numeri
-    - Una stringha che identifichi l'operazione da eseguire, es: "somma"
+    - Una stringa che identifichi l'operazione da eseguire, es: "somma"
   Restituisca il valore ottenuto calcolando l'operazione tra i due numeri.
 
   Le operazioni supportate sono le suguenti:
@@ -28,3 +28,33 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = 5;
+var b = 6;
+var operazione = 'media';
+
+switch (operazione) {
+    case 'somma':
+        console.log(operazione + ' = ' + (a + b));
+        break;
+    case 'sottrazione':
+        console.log(operazione + ' = ' + (a - b));
+        break;
+    case 'moltiplicazione':
+        console.log(operazione + ' = ' + (a * b));
+        break;
+    case 'divisione':
+        console.log(operazione + ' = ' + (a / b));
+        break;
+    case 'modulo':
+        console.log(operazione + ' = ' + (Math.floor(a) % Math.floor(b)));
+        break;
+    case 'potenza':
+        console.log(operazione + ' = ' + (a ** b));
+        break;
+    case 'media':
+        console.log(operazione + ' = ' + ((a + b) / 2));
+        break;
+    default:
+        console.log('Operazione non valida');
+}
