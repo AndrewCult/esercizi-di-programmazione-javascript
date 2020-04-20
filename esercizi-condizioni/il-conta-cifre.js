@@ -15,7 +15,7 @@
 var numero = 245;
 /*trasformo la variabile numero in una variabile stringa, dopo aver verificato che la proprietà length 
 non funziona con i numeri*/
-num = String(numero);
+num = numero.toString();
 
 if (num.length == 1) {
     console.log(num.length + ' cifra');
