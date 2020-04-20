@@ -23,3 +23,16 @@ if (num.length == 1) {
         console.log('il numero inserito è superiore a 9999');
     }
 }
+
+switch (num.length) {
+    case 1:
+        console.log(num.length + ' cifra');
+        break;
+    case 2:
+    case 3:
+    case 4:
+        console.log(num.length + ' cifre');
+        break;
+    default:
+        console.log('il numero inserito è superiore a 9999');
+}
