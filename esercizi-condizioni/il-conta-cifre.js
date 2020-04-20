@@ -11,3 +11,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var numero = 245;
+num = String(numero);
+if (num.length == 1) {
+    console.log(num.length + ' cifra');
+} else {
+    if (num.length <= 4) {
+        console.log(num.length + ' cifre');
+    } else {
+        console.log('il numero inserito è superiore a 9999');
+    }
+}
