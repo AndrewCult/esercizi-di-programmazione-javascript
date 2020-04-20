@@ -31,18 +31,19 @@ console.log('');
 console.log('Fai la tua scelta:');
 console.log('');
 var dolce = undefined;
+var Output = 'Hai scelto il dolce ';
 switch (dolce) {
     case 1:
-        console.log('Hai scelto il dolce Tiramisù');
+        console.log(Output + 'Tiramisù');
         break;
     case 2:
-        console.log('Hai scelto il dolce Torta della nonna');
+        console.log(Output + 'Torta della nonna');
         break;
     case 3:
-        console.log('Hai scelto il dolce Cheesecake alla nutella');
+        console.log(Output + 'Cheesecake alla nutella');
         break;
     case 4:
-        console.log('Hai scelto il dolce Macedonia');
+        console.log(Output + 'Macedonia');
         break;
     default:
         console.log('Dolce non disponibile');
