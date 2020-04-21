@@ -23,6 +23,7 @@
 var x = 1;
 var i = 1;
 var output = '';
+
 do {
     for (x = i; x <= i + 9; x++) {
         output += x.toString() + ' ';
