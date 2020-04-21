@@ -1,6 +1,6 @@
 /*
   Rincorri la decina
-  Scrivi un programma che che stampi i numeri da 1 a 100 andando a capo ogni 10.
+  Scrivi un programma che stampi i numeri da 1 a 100 andando a capo ogni 10.
 
   Esempio:
     Output: 1 2 3 4 5 6 7 8 9 10
@@ -19,3 +19,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var x = 1;
+var i = 1;
+var output = '';
+do {
+    for (x = i; x <= i + 9; x++) {
+        output += x.toString() + ' ';
+    }
+    i = i + 10;
+    console.log(output);
+    output = '\n';
+} while (i < 100);
