@@ -8,3 +8,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var x = 8;
+var output = '';
+
+for (i = 0; i <= 10; i++) {
+    let result = x * i;
+    output += result.toString() + ' ';
+}
+
+console.log(output);
