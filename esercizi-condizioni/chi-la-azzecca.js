@@ -23,7 +23,9 @@
 var player1 = 20;
 var player2 = 60;
 var numRandom = Math.floor(Math.random() * (100 - 1) + 1);
+
 console.log('Numero casuale generato = ' + numRandom);
+
 switch (numRandom) {
     case player1:
         console.log('Il giocatore 1 ha indovinato!');
