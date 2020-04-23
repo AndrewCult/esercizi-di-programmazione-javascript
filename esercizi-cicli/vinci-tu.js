@@ -14,3 +14,31 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var totPlayer1 = 0;
+var totPlayer2 = 0;
+var dado = 0;
+
+for (N = 1; N <= 3; N++) {
+    dado = Math.floor(Math.random() * 6 + 1);
+    totPlayer1 = totPlayer1 + dado;
+    console.log('Giocatore 1 al ' + N + ' tiro: ' + dado);
+}
+console.log('\n');
+
+for (N = 1; N <= 3; N++) {
+    dado = Math.floor(Math.random() * 6 + 1);
+    totPlayer2 = totPlayer2 + dado;
+    console.log('Giocatore 2 al ' + N + ' tiro: ' + dado);
+}
+
+console.log('\nIl giocatore 1 ha totalizzato ' + totPlayer1 + ' punti.');
+console.log('Il giocatore 2 ha totalizzato ' + totPlayer2 + ' punti.\n');
+
+if (totPlayer1 < totPlayer2) {
+    console.log('Vince il giocatore 2!');
+} else if (totPlayer1 > totPlayer2) {
+    console.log('Vince il giocatore 1!');
+} else {
+    console.log('I due giocatori hanno totalizzato lo stesso punteggio.');
+}
